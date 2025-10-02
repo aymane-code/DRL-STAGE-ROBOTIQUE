@@ -1,0 +1,95 @@
+# Apprentissage Robotique - Master LS2N
+# Dépendances pour le projet d'apprentissage par renforcement Kuka
+# Auteur: IBN EL QORCHY Aymane
+# Date: Juillet 2025
+
+# ====================================
+# SIMULATION PHYSIQUE ET ROBOTIQUE
+# ====================================
+pybullet==3.2.5
+gymnasium==0.28.1
+gym==0.26.2
+
+# ====================================
+# APPRENTISSAGE PAR RENFORCEMENT
+# ====================================
+stable-baselines3==2.0.0
+torch==2.0.1+cpu
+tensorboard==2.13.0
+
+# ====================================
+# CALCUL SCIENTIFIQUE
+# ====================================
+numpy==1.24.3
+scipy==1.10.1
+
+# ====================================
+# ANALYSE DE DONNÉES
+# ====================================
+pandas==2.0.2
+scikit-learn==1.2.2
+
+# ====================================
+# VISUALISATION
+# ====================================
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# ====================================
+# TRAITEMENT D'IMAGES (OPTIONNEL)
+# ====================================
+opencv-python==4.7.1.72
+Pillow==9.5.0
+
+# ====================================
+# ENVIRONNEMENT JUPYTER
+# ====================================
+jupyter==1.0.0
+ipykernel==6.23.1
+ipywidgets==8.0.6
+notebook==6.5.4
+
+# ====================================
+# UTILITAIRES ET MONITORING
+# ====================================
+tqdm==4.65.0
+wandb==0.15.4
+psutil==5.9.5
+
+# ====================================
+# SÉRIALISATION ET SAUVEGARDE
+# ====================================
+cloudpickle==2.2.1
+dill==0.3.6
+
+# ====================================
+# TESTS ET QUALITÉ CODE (OPTIONNEL)
+# ====================================
+pytest==7.3.1
+black==23.3.0
+isort==5.12.0
+
+# ====================================
+# DOCUMENTATION (OPTIONNEL)
+# ====================================
+sphinx==6.2.1
+sphinx-rtd-theme==1.2.2
+
+# ====================================
+# EXPORT ET FORMATS
+# ====================================
+jsonschema==4.17.3
+pyyaml==6.0
+h5py==3.8.0
+
+# ====================================
+# PERFORMANCES ET OPTIMISATION
+# ====================================
+numba==0.57.0
+
+# ====================================
+# COMPATIBILITÉ SYSTÈME
+# ====================================
+setuptools>=65.0.0
+wheel>=0.40.0
